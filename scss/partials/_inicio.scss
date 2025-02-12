@@ -1,0 +1,104 @@
+.inicio {
+    max-width: 65%;
+    margin-bottom: 50vh;
+    text-align: center;
+    margin-top: 60;
+
+    
+    .logo {
+        margin-block: 10px;
+        margin-top: 10vh;
+
+        h1 {
+            display: inline;
+            font-size: 7rem;
+            background-color: black;
+            margin-top: 10px;
+            margin-bottom: 0px;
+            line-height: normal;
+            span {
+                font-style: italic;
+                font-size: 7rem;
+                line-height: normal;
+                font-family: 'Arial Black';
+                color: white;
+                padding-right: 20px;
+            }
+        }
+
+        h2 {
+            font-family: 'Edwardian Script ITC';
+            font-size: 7rem;
+            color: black;
+            text-align: end;
+        }
+        .saltar {
+            -webkit-animation: saltar .5s infinite alternate ease;
+            animation: saltar .5s infinite alternate ease;
+        }
+        @-webkit-keyframes saltar {
+            0% {
+                -webkit-transform: skewY(-5deg);
+                transform: skewY(-5deg);
+            }
+            100% {
+                -webkit-transform: skewY(-5deg) translateY(5px);
+                transform: skewY(-5deg) translateY(5px);
+            }
+        }
+        @keyframes saltar {
+            0% {
+                -webkit-transform: skewY(-5deg);
+                transform: skewY(-5deg);
+            }
+            100% {
+                -webkit-transform: skewY(-5deg) translateY(5px);
+                transform: skewY(-5deg) translateY(5px);
+            }
+        }
+    }
+
+    .prologo {
+        display: grid;
+        gap: 2rem;
+        margin-top: 2rem;
+        font-family: $letra;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+            "textPomelo imgPomelo"
+            "imgVulva textVulva";
+        .imgPomelo {
+            grid-area: "imgPomelo";
+            display: flex;
+            align-items: center;
+        }
+        .textPomelo {
+            grid-area: "textPomelo";
+        }
+        .imgVulva {
+            grid-area: "imgVulva";
+            display: flex;
+            align-items: center;
+        }
+        .textVulva {
+            grid-area: "textVulva";
+        }
+
+        img {
+            width: 100%;
+        }
+
+        h3 {
+            color: red;
+            font-size: 2.5rem;
+            text-align: left;
+        }
+
+        p {
+            font-size: 1.5rem;
+            text-align: left;
+        }
+    }
+
+}

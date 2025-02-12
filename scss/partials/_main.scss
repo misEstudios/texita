@@ -1,0 +1,86 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .fondo {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        z-index: -2;
+        background-image: url(../../img/imageBDSM.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 60% 40%;
+    }
+    .kenburns-top {
+        -webkit-animation: kenburns-top 10s infinite alternate-reverse both;
+        animation: kenburns-top 10s infinite alternate-reverse both;
+    }
+    @-webkit-keyframes kenburns-top {
+        0% {
+            -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+            -webkit-transform-origin: 50% 16%;
+            transform-origin: 50% 16%;
+        }
+        100% {
+            -webkit-transform: scale(1.25) translateY(-15px);
+            transform: scale(1.25) translateY(-15px);
+            -webkit-transform-origin: top;
+            transform-origin: top;
+        }
+    }
+    @keyframes kenburns-top {
+        0% {
+            -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+            -webkit-transform-origin: 50% 16%;
+            transform-origin: 50% 16%;
+        }
+        100% {
+            -webkit-transform: scale(1.25) translateY(-15px);
+            transform: scale(1.25) translateY(-15px);
+            -webkit-transform-origin: top;
+            transform-origin: top;
+        }
+        
+    }
+
+    .difusor {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        background-color: #ffffffc7;
+        z-index: -1;
+    }
+
+    .titulo {
+        height: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+
+        h2 {
+            color: black;
+            font-size: 2rem;
+            font-family: $letra;
+            text-align: center;
+        }
+    }
+
+    .caja {
+        margin-inline: auto;
+        padding-inline: 10%;
+        background-color: $color;
+        padding-block: 80px;
+        max-width: 900px;
+        margin-bottom: 80px;
+    }
+
+}

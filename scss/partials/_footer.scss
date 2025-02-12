@@ -1,0 +1,31 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-block: 2rem;
+    width: 100%;
+    background: #111;
+    background: rgba($color: #111, $alpha: .90);
+
+    .rrss {
+        color: #787878;
+        display: flex;
+        gap: 1rem;
+        margin-top: 30px;
+
+        svg {
+            cursor: pointer;
+        }
+    }
+
+    p {
+        color: #787878;
+        margin-inline: 20px;
+        font-size: 1.3rem;
+        line-height: 2rem;
+        text-align: center;
+        font-family: $letra;
+    }
+}

@@ -1,0 +1,72 @@
+@media (max-width: 980px) {
+
+    
+
+    .inicio {
+        max-width: 80%;
+
+        .logo {
+            font-size: 5rem;
+
+            h1 {
+                font-size: 5rem;
+
+                span {
+                    font-size: 5rem;
+                }
+            }
+
+            h2 {
+                font-size: 5rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 680px) {
+    
+    .caja {
+        .contactos {
+            flex-direction: column;
+        }
+    }
+
+    .cajaProductos {
+        max-width: 100%;
+
+        .productos {
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+
+    .inicio {
+        max-width: 100%;
+
+        .logo {
+            font-size: 3rem;
+            h1 {
+                font-size: 3rem;
+                span {
+                    font-size: 3rem;
+                }
+            }
+
+            h2 {
+                font-size: 3rem;
+                margin-right: 30px;
+            }
+        }
+
+        .prologo {
+            display: flex;
+            flex-direction: column;
+
+            .imgVulva {
+                order: 2;
+            }
+        }
+
+    }
+}
