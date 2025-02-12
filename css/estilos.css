@@ -514,6 +514,14 @@ footer p {
   .inicio .prologo .imgVulva {
     order: 2;
   }
+  .inicio .prologo h3 {
+    text-align: center;
+    margin-inline: 10%;
+  }
+  .inicio .prologo p {
+    text-align: justify;
+    margin-inline: 10%;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
