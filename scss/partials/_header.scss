@@ -19,6 +19,9 @@ header {
             background-color: black;
             margin: 5px;
             line-height: normal;
+            &:hover {
+                transform: scale(1.1);
+            }
 
             span {
                 font-style: italic;
@@ -51,6 +54,9 @@ header {
                     font-family: $letra;
                     font-size: .9rem;
                     color: black;
+                    &:hover {
+                        transform: scale(1.1);
+                    }
 
                     a {
                         width: 100%;

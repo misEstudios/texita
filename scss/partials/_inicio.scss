@@ -33,8 +33,8 @@
             text-align: end;
         }
         .saltar {
-            -webkit-animation: saltar .5s infinite alternate ease;
-            animation: saltar .5s infinite alternate ease;
+            -webkit-animation: saltar 1s infinite alternate ease-in-out;
+            animation: saltar 1s infinite alternate ease-in-out;
         }
         @-webkit-keyframes saltar {
             0% {
